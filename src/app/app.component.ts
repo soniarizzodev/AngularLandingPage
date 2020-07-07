@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FeeliaLandingPage';
+  title = 'FeelIt';
+  year: number = new Date().getFullYear();
 }

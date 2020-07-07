@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# VS
+.vs
+bin
+obj/Debug
+*.njsproj
+*.sln

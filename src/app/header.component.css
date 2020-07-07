@@ -1,0 +1,45 @@
+.logo {
+  background-color: var(--accent-text-color);
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+  .logo span {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 36px;
+    position: relative;
+    top: 7px;
+    right: 3px;
+  }
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #2a0f0f;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+}
